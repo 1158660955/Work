@@ -19,7 +19,7 @@
             // div.style.top=(Math.random()*800)+"px";
             // div.style.left=(Math.random()*800)+"px";
             if (a<=0.5){
-                id=setInterval(function () {
+                var id=setInterval(function () {
                     ballX+=2*directX;
                     ballY+=2*directY;
                     div.style.top=ballY+"px";
@@ -32,7 +32,7 @@
                     }
                 },100);
             }else {
-                id2=setInterval(function () {
+                var id2=setInterval(function () {
                     ballX-=2*directX;
                     ballY-=2*directY;
                     div.style.top=ballY+"px";
